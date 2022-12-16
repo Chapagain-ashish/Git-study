@@ -1,12 +1,12 @@
 
 
 
-import Navbar from './Navbar ';
+/* import Navbar from './Navbar '; */
 const About =() =>
 {
     return(
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <h1> About</h1>
         </div>
     )

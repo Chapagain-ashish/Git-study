@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Cpp from './App'; //importing App function from App.js using Es6 format
 import reportWebVitals from './reportWebVitals';
-import  Home from './Home.js';
+/* import  Home from './Home.js'; */
 /* import Card from './Card'; */
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -11,7 +11,7 @@ root.render(
   <React.StrictMode>
     {<Cpp />  }  {/* calling App function  we cannot do like this App() in react*/}
    {/*  <Card /> */}
-    <Home/>
+  {/*   <Home/> */}
   </React.StrictMode>
 );
 
